@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="description" content="Posso usar essa meta tag para descrever informações do meu site" />
+        <meta name="keywords" content="html5, html, web, IFSC, Canoinhas, SC, fotografia, paisagens, fotos" />
+        <meta name="author" content="Ellen Spadotto" />
+        <meta name="robots" content="index,follow" />
+        <link rel="icon" href="Icones/camera-2-48.ico" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Fotos de Por do Sol</title>
+
+        <style>
+            * {
+                box-sizing: border-box;
+            }
+
+            header, footer {
+                background-color: thistle;
+                color: white;
+                padding: 9px;
+                text-transform: uppercase;
+                font-weight: bold;
+            }
+
+            th {
+                text-align: center;
+            }
+
+            table, th, td {
+                border: solid 2px white;
+                border-collapse: collapse;
+                padding: 2px;
+            }
+
+            .coluna{
+                float: left;
+                width: 50%;
+                border: solid 2px white;
+            }
+            .row::after {
+                content: "";
+                clear: both;
+                display: table;
+            }
+
+            @media screen and (max-width: 500px) {
+              .column {
+                width: 100%;
+              }
+            }
+
+        </style>
+    </head>
+    <body>
+        <nav>
+           <header>
+                <table style="width:100%">
+                    <tr id="topo">
+                        <th><a href="Menu.html">Home</a></th>
+                        <th><a href="Pordosol.html"><img src="Icones/sun-64.ico" alt="Por do sol" title="Por do Sol"/></a></th>
+                        <th><a href="Flor.html"><img src="Icones/flower-64.ico" alt="Flores" title="Flores"/></a></th>
+                        <th><a href="Animal.html"><img src="Icones/cat-64.ico" alt="Animais" title="Animais"/></a></th>
+                        <th><a href="Paisagem.html"><img src="Icones/mountain-3-64.ico" alt="Paisagens" title="Paisagens"/></a></th>
+                        <th><a href="Noite.html"><img src="Icones/partly-cloudy-night-64.ico" alt="Noite" title="Noite"/></a></th>
+                        <th><a href="Aleatorio.html"><img src="Icones/house-64.ico" alt="Aleatórias" title="Aleatórias"/></a></th>
+                        <th><a href="Dicas.html"><img src="Icones/camera-2-48.ico" alt="Dicas de fotografia" title="Dicas de fotografia"/></a></th>
+                    </tr>
+                </table>
+            </header> 
+        </nav>
+        
+        <main>
+            <div class="row">
+                <div class="coluna">
+                    <img src="Imagens/P_20181111_200006.jpg" title="Por do Sol 01" alt="Por do sol, céu azul com nuvens cor de rosa, na parte inferior na linha do skyline contendo árvores, e fios de luz que atravessam a foto." style="width:100%"/>
+                </div>
+
+                <div class="coluna">
+                    <img src="Imagens/P_20181114_200956_vHDR_On.jpg" title="Por do Sol 02" alt="Por do sol, céu com tons avermelhados, no fundo skyline de árvores, montanha, um poste aceso e uma casa, já próximo do fotógrafo há uma cerca de metal(apenas sombra) e o avermelhado do céu está refletindo na calçada em frente a cerca." style="width:100%"/>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="coluna">
+                    <img src="Imagens/P_20190102_201012-EFFECTS.jpg" title="Por do Sol 03" alt="Por do sol, céu amerelo dourado, com uma nuvem na lateral da foto com um tom azul marinho, e no fundo o skyline possui árvores, fios elétricos, poste, e um canto de telhado logo abaixo das nuvens." style="width:100%"/>
+                </div>
+
+                <div class="coluna">
+                    <img src="Imagens/P_20190121_204832.jpg" title="Por do Sol 04" alt="Por do sol, com uma nuvem azul marinha escura na lateral, na parte de cima da nuvem o céu esta azul escuro anoitecendo, já a parte de baixo da nuvem há tons de rosa no céu, ao skyline há um poste aceso, árvores e a foto foi retirada entre duas casas." style="width:100%"/>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="coluna">
+                    <img src="Imagens/P_20200108_193021_vHDR_On.jpg" title="Por do Sol 05" alt="Por do sol, céu com varias nuvens pequenas e finas com tons de rosa, amarelo e azul, com uma nuvem maior como um véu no topo da foto em tom lilás, e no horizonte apenas sombras de árvores e moros." style="width:100%"/>
+                </div>
+
+                <div class="coluna">
+                    <img src="Imagens/Screenshot_20181226-221509_1.jpg" title="Por do Sol 06" alt="Por do sol, céu azul bebê com uma nuvem grande no canto superior esquerdo da foto com um formato semelhante de uma rosa em tom rosa claro, alguns galhos de árvores na parte inferior e fios de luz por cima das nuvens." style="width:100%"/>
+                </div>
+            </div>
+        </main>
+        <footer>Fotos de Por do Sol <br> by Genoveva D'elavigne<hr>
+            <p>
+                <a href="#topo">Voltar ao topo</a>
+            </p>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="description" content="Posso usar essa meta tag para descrever informações do meu site" />
+        <meta name="keywords" content="html5, html, web, IFSC, Canoinhas, SC, fotografia, paisagens, fotos" />
+        <meta name="author" content="Ellen Spadotto" />
+        <meta name="robots" content="index,follow" />
+        <link rel="icon" href="Icones/camera-2-48.ico" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Fotos Noturnas</title>
+
+        <style>
+            * {
+                box-sizing: border-box;
+            }
+
+            header, footer {
+                background-color: thistle;
+                color: white;
+                padding: 9px;
+                text-transform: uppercase;
+                font-weight: bold;
+            }
+
+            th {
+                text-align: center;
+            }
+
+            table, th, td {
+                border: solid 2px white;
+                border-collapse: collapse;
+                padding: 2px;
+            }
+
+            .coluna{
+                float: left;
+                width: 50%;
+                border: solid 2px white;
+            }
+            .row::after {
+                content: "";
+                clear: both;
+                display: table;
+            }
+
+            @media screen and (max-width: 500px) {
+              .column {
+                width: 100%;
+              }
+            }
+
+        </style>
+    </head>
+    <body>
+        <nav>
+           <header>
+                <table style="width:100%">
+                    <tr id="topo">
+                        <th><a href="Menu.html">Home</a></th>
+                        <th><a href="Pordosol.html"><img src="Icones/sun-64.ico" alt="Por do sol" title="Por do Sol"/></a></th>
+                        <th><a href="Flor.html"><img src="Icones/flower-64.ico" alt="Flores" title="Flores"/></a></th>
+                        <th><a href="Animal.html"><img src="Icones/cat-64.ico" alt="Animais" title="Animais"/></a></th>
+                        <th><a href="Paisagem.html"><img src="Icones/mountain-3-64.ico" alt="Paisagens" title="Paisagens"/></a></th>
+                        <th><a href="Noite.html"><img src="Icones/partly-cloudy-night-64.ico" alt="Noite" title="Noite"/></a></th>
+                        <th><a href="Aleatorio.html"><img src="Icones/house-64.ico" alt="Aleatórias" title="Aleatórias"/></a></th>
+                        <th><a href="Dicas.html"><img src="Icones/camera-2-48.ico" alt="Dicas de fotografia" title="Dicas de fotografia"/></a></th>
+                    </tr>
+                </table>
+            </header> 
+        </nav>
+        
+        <main>
+            <div class="row">
+                <div class="coluna">
+                    <img src="Imagens/P_20191228_194553_vHDR_On.jpg" title="Noite 01" alt="Anoitecer com sombra de árvores no horizonte e a lua crescente ao lado de marte." style="width:100%"/>
+                </div>
+
+                <div class="coluna">
+                    <img src="Imagens/Screenshot_20181226-215143_1.jpg" title="Noite 02" alt="Anoitecer, com algumas faixas amarelas no fundo e a sombra das arvores e de casas no fundo." style="width:100%"/>
+                </div>
+
+                <div class="coluna">
+                    <img src="Imagens/Screenshot_20181226-221532_1.jpg" title="Noite 03" alt="Noite escura, céu todo preto, apenas a lua crecente e mercurio no centro." style="width:100%"/>
+                </div>
+            </div>
+        </main>
+        <footer>Fotos Noturnas <br> by Genoveva D'elavigne<hr>
+            <p>
+                <a href="#topo">Voltar ao topo</a>
+            </p>
+        </footer>
+    </body>
+</html>
