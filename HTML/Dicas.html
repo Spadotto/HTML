@@ -9,6 +9,11 @@
         <meta name="robots" content="index,follow" />
         <link rel="icon" href="Icones/camera-2-48.ico" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
         <title>Dicas de Fotografia</title>
 
         <link rel="stylesheet" href="css.css">
@@ -16,116 +21,164 @@
     </head>
 
     <body>
-        <nav id="menu">
-           <header>
-                <ul>
-                    <li><a href="Menu.html"><img src="Icones/house-64.ico" alt="Home" title="Home"/></a></li>
-                    <li><a href="Pordosol.html"><img src="Icones/sun-64.ico" alt="Por do sol" title="Por do Sol"/></a></li>
-                    <li><a href="Flor.html"><img src="Icones/flower-64.ico" alt="Flores" title="Flores"/></a></li>
-                    <li><a href="Animal.html"><img src="Icones/cat-64.ico" alt="Animais" title="Animais"/></a></li>
-                    <li><a href="Paisagem.html"><img src="Icones/mountain-3-64.ico" alt="Paisagens" title="Paisagens"/></a></li>
-                    <li><a href="Noite.html"><img src="Icones/partly-cloudy-night-64.ico" alt="Noite" title="Noite"/></a></li>
-                    <li><a href="Aleatorio.html"><img src="Icones/diaphragm.ico" alt="Aleatórias" title="Aleatórias"/></a></li>
-                    <li><a href="Dicas.html"><img src="Icones/camera-2-48.ico" alt="Dicas de fotografia" title="Dicas de fotografia"/></a></li>
-                </ul>
-            </header> 
-        </nav>
+        <header id="top">
+            <h1>
+                <nav  class="navbar navbar-expand-lg nav-pills navbar-light nav-justified justify-content-center">
+                    <a class="navbar-brand" href="#"></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    
+                        <ul class="nav justify-content-center nav-pills nav-justified">
+                            <li class="nav-item"><a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#"><i class="fas fa-home"></i></a>
+                                <div class="dropdown-menu">
+                                  <a class="dropdown-item" href="Menu.html">Menu</a>
+                                  <a class="dropdown-item" href="Newsletter.html">Newsletter</a>
+                                </div>
+                            </li>
+                            <li class="nav-item"><a class="nav-link" href="Pordosol.html"><i class="fas fa-sun"></i></a></li>
+                            <li class="nav-item"><a class="nav-link" href="Flor.html"><i class="fas fa-spa"></i></a></li>
+                            <li class="nav-item"><a class="nav-link" href="Animal.html"><i class="fas fa-cat"></i></a></li>
+                            <li class="nav-item"><a class="nav-link" href="Paisagem.html"><i class="fas fa-mountain"></i></a></li>
+                            <li class="nav-item"><a class="nav-link" href="Noite.html"><i class="fas fa-cloud-moon"></i></a></li>
+                            <li class="nav-item"><a class="nav-link" href="Aleatorio.html"><i class="fas fa-eye"></i></a></li>
+                            <li class="nav-item"><a class="nav-link disabled" href="Dicas.html"><i class="fas fa-camera-retro"></i></a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </h1>
+        </header> 
         
         <main>
-            <div class="clearfix">
-                <section>
-                    <h1>Dicas Para Melhorar Suas Fotos</h1>
-                    <ol>
-                        <li><h2>ENQUADRAMENTO</h2>
-                            <p>A ideia do enquadramento é o foco principal para uma boa fotografia, é aqui que se deve dar prioridade ao elemento principal da sua foto. Como por exemplo, em fotos de pessoas, sempre vamos manter o foco na pessoa, podendo ficar a critério se o fundo vai ser desfocado ou não. Já em composições de paisagens com muitos elementos, olhe sempre para todos os detalhes presentes e mantenha apenas o essencial para sua composição.</p>
-                        </li>
-                                
-                        <li><h2>UTILIZAR O MODO MANUAL</h2>
-                            <p>O <b>modo manual</b> é o principal responsável para tirar uma foto de boa qualidade, já que você pode controlar diversas etapas da captura sem se render ao automático. Assim você consegue ter um maior controle nos ajustes da sua foto, entre eles os principais e como configurar são: </p>
-                            <ul>
-                                <li><h3>FOCO</h3>
-                                    <p>
-                                        Para escolher o melhor foco, você pode ou ajustá-lo manualmente, com uma barra deslizável(a qual para objetos de perto desfocará o fundo, e para fotos de objetos longes, desfoca os mais pertos), ou utilizar configurações pré-definidas, como o <i>modo macro</i>, que permite a captura de objetos bem de perto enquanto mantém o fundo desfocado e, é um dos melhores pois captura os objetos próximos com os mínimos detalhes.
-                                    </p>
-                                </li>
-                                <li><h3>ISO</h3>
-                                    <p>
-                                        O ISO determina a sensibilidade do sensor da câmera à luz. Quanto maior a sensibilidade, maior será a capacidade da câmera de captar luminosidade. Porém, note que ao usar um ISO alto você terá mais ruído na sua imagem. Se quiser uma imagem completamente nítida, você precisará usar um ISO baixo e compensar no obturador e no diafragma para conseguir a exposição correta. Já em fotos noturnas, especialmente de estrelas, lua, etc, quanto menor a ISO melhor sera a captação de astros.
-                                    </p>
-                                </li>
-                                <li><h3>EXPOSIÇÃO</h3>
-                                    <p>
-                                        A <b>exposição</b> permite que você escolha a quantidade de luz que o seu celular irá capturar. Aumentar a exposição lhe dá imagens mais claras, e vice-versa.
-                                        Em cameras profissionais, a exposição pode ser regulada utilizando o <strong>fotômetro</strong>, uma régua que fica logo abaixo da imagem no visor ocular, como na figura abaixo: 
-                                    </p>
-                                    <img src="Imagens/fotometro.jpg" title="fotômetro" alt="fotômetro, régua utilizada para regular o valor de exposição das fotos."/>
-                                    <p>
-                                        Quando o indicador está no centro, significa que a imagem está exposta corretamente, se está à esquerda é porque está escura, e se está à direita é porque está muito clara. Normalmente essa calibragem é manual.
-                                    </p>
-                                </li>
-                                <li><h3>OBTURADOR</h3>
-                                    <p>
-                                        Também conhecido como cortina, o <b>obturador</b> é onde você define o tempo que a foto levará para ser captada. Quanto maior o tempo de abertura dessa cortina, mais luz entrará e a sua imagem se tornará mais clara. Todavia, ao trabalhar com velocidades mais lentas é provável que sua imagem saia tremida devido à instabilidade das mãos ou o movimento do objeto a ser fotografado.
-                                    </p>
-                                </li>
-                            </ul>
-                        </li>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-8">
+                    <br>
+                    <div class="clearfix">
 
-                        <li><h2>EVITE O ZOON</h2>
-                            <p>
-                                A menos que o sua câmera possua <i>lentes específicas</i> ou recursos que potencializem o zoom, é melhor deixá-lo de lado caso a sua preocupação seja com a qualidade, em especial com os celulares, pois na maioria a aproximação é digital, o que pode tornar a foto granulada, borrada ou, em alguns casos, fazê-la perder a definição por completo. Sendo assim, o melhor é não ter medo de se aproximar do objeto a ser fotografado.
-                            </p>
-                        </li>
+                        <h1 class="text-center menu" href="#" data-toggle="popover" title="Dicas Para Melhorar Suas Fotos" data-content="Dicas legais!">Dicas Para Melhorar Suas Fotos</h1>
 
-                        <li><h2>CUIDADO COM O FLASH</h2>
-                            <p>
-                                O flash é uma ótima ferramenta para a fotografia, mas para quem <ins>não sabe usá-lo corretamente</ins>, ele pode atrapalhar mais que ajudar. Porém, se você optar por utilizá-lo, uma dica é pesquisar qual o seu alcance, que é informado no manual de instrução da câmera.
-                                Uma vez sabendo qual a distância máxima que ele alcança, não fique longe, fora da área de alcance), nem muito perto, para não estourar a imagem. Outra forma de usar o flash é durante o dia, quando há contra luz no objeto ou pessoa fotografada.
-                            </p>
-                        </li>
-                    </ol>
-                </section>
-                <aside>
-                    <table>
-                        <caption>Melhores Cameras Profissionais e de Celulares para Fotos</caption>
-                        <thead>
-                            <tr>
-                                <th>Produto</th>
-                                <th>Nome</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td><a href="https://www.amazon.com.br/C%C3%A2mera-Canon-Rebel-18-55-3-5-5-6/dp/B08DYD7PN5/ref=asc_df_B08DYD7PN5/?tag=googleshopp00-20&linkCode=df0&hvadid=379799240075&hvpos=&hvnetw=g&hvrand=6149632825181601396&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1001701&hvtargid=pla-951515073118&psc=1"><img src="Tabela/camera-canon.jpg" alt="Camera profissional do modelo Canon EOS Rebel" title="Canon EOS Rebel"/></a></td>
-                                 <td>Câmera Canon EOS Rebel</td>
-                            </tr>
-                            <tr>
-                                <td><a href="https://www.casasbahia.com.br/Cameras-Filmadoras-Drones/CamerasDigitais/camerasprofissionais/nikon-d3500-kit-18-55mm-242mp-1500084074.html?utm_medium=cpc&utm_source=gp_rmkt&IdSku=1500084074&idLojista=31959"><img src="Tabela/camera-nikon.jpg" alt="Camera profissional do modelo NIKON D3500" title="NIKON D3500"/></a></td>
-                                <td>Câmera NIKON D35004</td>
-                            </tr>
-                            <tr>
-                                <td><a href="https://www.kabum.com.br/produto/129717/camera-sony-a9-mirrorless-4k-full-frame-ilce9-b-corpo-"><img src="Tabela/camera-sony.jpg" alt="Camera profissional do modelo Câmera Sony A9 Mirrorless 4K" title="Câmera Sony A9 Mirrorless 4K"/></a></td>
-                                <td>Câmera Sony A9 Mirrorless 4K</td>
-                            </tr>
-                            <tr>
-                                <td><a href="https://www.casasbahia.com.br/Cameras-Filmadoras-Drones/CamerasDigitais/camerasprofissionais/nikon-d3500-kit-18-55mm-242mp-1500084074.html?utm_medium=cpc&utm_source=gp_rmkt&IdSku=1500084074&idLojista=31959"><img src="Tabela/huawei-p30-pro1.png" alt="Celular com excelente câmera Huawei P30 PRO" title="Huawei P30 PRO"/></a></td>
-                                <td>Celular Huawei P30 PRO</td>
-                            </tr>
+                        <script>
+                            $(document).ready(function(){
+                                $('[data-toggle="popover"]').popover();
+                            });
+                        </script>
                             
-                        </tbody>
-                        <tfoot>
-                            <tr>
-                                <td><a href="https://www.magazineluiza.com.br/smartphone-asus-zenfone-6-256gb-black-4g-snapdragon-855-8gb-ram-64-camera-flip/p/224568100/te/tcsp/?&force=1&seller_id=magazineluiza"><img src="Tabela/zenfone-6.png" alt="Celular com excelente câmera Asus ZenFone 6" title="Asus ZenFone 6"/></a></td>
-                                <td>Asus ZenFone 6</td>
-                            </tr>
-                        </tfoot>
-                    </table>
-                </aside>
+                        <ol>
+                            <div class="card">                      
+                                <li><div class="card-header"><h2>ENQUADRAMENTO</h2></div>
+                                    <div class="card-body">
+                                        <p class="text-body">
+                                            A ideia do enquadramento é o foco principal para uma boa fotografia, é aqui que se deve dar prioridade ao elemento principal da sua foto. Como por exemplo, em fotos de pessoas, sempre vamos manter o foco na pessoa, podendo ficar a critério se o fundo vai ser desfocado ou não. Já em composições de paisagens com muitos elementos, olhe sempre para todos os detalhes presentes e mantenha apenas o essencial para sua composição.
+                                        </p>
+                                    </div>
+                                </li>
+                            </div>
+                            <div class="card">       
+                                <li><div class="card-header"><h2>UTILIZAR O MODO MANUAL</h2></div>
+                                    <div class="card-body">
+                                        <p class="text-body">
+                                            O <b>modo manual</b> é o principal responsável para tirar uma foto de boa qualidade, já que você pode controlar diversas etapas da captura sem se render ao automático. Assim você consegue ter um maior controle nos ajustes da sua foto, entre eles os principais e como configurar são: 
+                                        </p>
+
+                                        <ul>
+                                            <li><div class="card-footer"><h3>FOCO</h3></div>
+                                                <p class="text-body">
+                                                    Para escolher o melhor foco, você pode ou ajustá-lo manualmente, com uma barra deslizável(a qual para objetos de perto desfocará o fundo, e para fotos de objetos longes, desfoca os mais pertos), ou utilizar configurações pré-definidas, como o <i>modo macro</i>, que permite a captura de objetos bem de perto enquanto mantém o fundo desfocado e, é um dos melhores pois captura os objetos próximos com os mínimos detalhes.
+                                                </p>
+                                            </li>
+
+                                            <li><div class="card-footer"><h3>ISO</h3></div>
+                                                <p class="text-body">
+                                                    O ISO determina a sensibilidade do sensor da câmera à luz. Quanto maior a sensibilidade, maior será a capacidade da câmera de captar luminosidade. Porém, note que ao usar um ISO alto você terá mais ruído na sua imagem. Se quiser uma imagem completamente nítida, você precisará usar um ISO baixo e compensar no obturador e no diafragma para conseguir a exposição correta. Já em fotos noturnas, especialmente de estrelas, lua, etc, quanto menor a ISO melhor sera a captação de astros.
+                                                </p>
+                                            </li>
+            
+                                            <li><div class="card-footer"><h3>EXPOSIÇÃO</h3></div>
+                                                <p class="text-body">
+                                                    A <b>exposição</b> permite que você escolha a quantidade de luz que o seu celular irá capturar. Aumentar a exposição lhe dá imagens mais claras, e vice-versa.
+                                                    Em cameras profissionais, a exposição pode ser regulada utilizando o <strong>fotômetro</strong>, uma régua que fica logo abaixo da imagem no visor ocular, como na figura abaixo: 
+                                                </p>
+                                                <img src="Imagens/fotometro.jpg" title="fotômetro" alt="fotômetro, régua utilizada para regular o valor de exposição das fotos."/>
+                                                <p class="text-body">
+                                                    Quando o indicador está no centro, significa que a imagem está exposta corretamente, se está à esquerda é porque está escura, e se está à direita é porque está muito clara. Normalmente essa calibragem é manual.
+                                                </p>
+                                            </li>
+
+                                            <li><div class="card-footer"><h3>OBTURADOR</h3></div>
+                                                <p class="text-body">
+                                                    Também conhecido como cortina, o <b>obturador</b> é onde você define o tempo que a foto levará para ser captada. Quanto maior o tempo de abertura dessa cortina, mais luz entrará e a sua imagem se tornará mais clara. Todavia, ao trabalhar com velocidades mais lentas é provável que sua imagem saia tremida devido à instabilidade das mãos ou o movimento do objeto a ser fotografado.
+                                                </p>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                            </div>
+                            <div class="card">
+                                <li><div class="card-header"><h2>EVITE O ZOON</h2></div>
+                                    <div class="card-body">
+                                        <p class="text-body">
+                                            A menos que o sua câmera possua <i>lentes específicas</i> ou recursos que potencializem o zoom, é melhor deixá-lo de lado caso a sua preocupação seja com a qualidade, em especial com os celulares, pois na maioria a aproximação é digital, o que pode tornar a foto granulada, borrada ou, em alguns casos, fazê-la perder a definição por completo. Sendo assim, o melhor é não ter medo de se aproximar do objeto a ser fotografado.
+                                        </p>
+                                    </div>
+                                </li>
+                            </div>
+                            <div class="card">
+                                <li><div class="card-header"><h2>CUIDADO COM O FLASH</h2></div>
+                                    <div class="card-body">
+                                        <p class="text-body">
+                                            O flash é uma ótima ferramenta para a fotografia, mas para quem <ins>não sabe usá-lo corretamente</ins>, ele pode atrapalhar mais que ajudar. Porém, se você optar por utilizá-lo, uma dica é pesquisar qual o seu alcance, que é informado no manual de instrução da câmera.
+                                            Uma vez sabendo qual a distância máxima que ele alcança, não fique longe, fora da área de alcance), nem muito perto, para não estourar a imagem. Outra forma de usar o flash é durante o dia, quando há contra luz no objeto ou pessoa fotografada.
+                                        </p>
+                                    </div>
+                                </li>
+                            </div>
+                        </ol>
+                    </div>
+                    </div>
+
+                    <div class="col-sm-4">
+                        <table class="table table-bordered table-dark table-striped menu1">
+                            <caption>Melhores Cameras Profissionais e de Celulares para Fotos</caption>
+                            <thead class="table thead-dark">
+                                <tr>
+                                    <th>Produto</th>
+                                    <th>Nome</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><a href="https://www.amazon.com.br/C%C3%A2mera-Canon-Rebel-18-55-3-5-5-6/dp/B08DYD7PN5/ref=asc_df_B08DYD7PN5/?tag=googleshopp00-20&linkCode=df0&hvadid=379799240075&hvpos=&hvnetw=g&hvrand=6149632825181601396&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1001701&hvtargid=pla-951515073118&psc=1"><img src="Tabela/camera-canon.jpg" alt="Camera profissional do modelo Canon EOS Rebel" title="Canon EOS Rebel"/></a></td>
+                                    <td>Câmera Canon EOS Rebel</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://www.casasbahia.com.br/Cameras-Filmadoras-Drones/CamerasDigitais/camerasprofissionais/nikon-d3500-kit-18-55mm-242mp-1500084074.html?utm_medium=cpc&utm_source=gp_rmkt&IdSku=1500084074&idLojista=31959"><img src="Tabela/camera-nikon.jpg" alt="Camera profissional do modelo NIKON D3500" title="NIKON D3500"/></a></td>
+                                    <td>Câmera NIKON D35004</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://www.kabum.com.br/produto/129717/camera-sony-a9-mirrorless-4k-full-frame-ilce9-b-corpo-"><img src="Tabela/camera-sony.jpg" alt="Camera profissional do modelo Câmera Sony A9 Mirrorless 4K" title="Câmera Sony A9 Mirrorless 4K"/></a></td>
+                                    <td>Câmera Sony A9 Mirrorless 4K</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://www.casasbahia.com.br/Cameras-Filmadoras-Drones/CamerasDigitais/camerasprofissionais/nikon-d3500-kit-18-55mm-242mp-1500084074.html?utm_medium=cpc&utm_source=gp_rmkt&IdSku=1500084074&idLojista=31959"><img src="Tabela/huawei-p30-pro1.png" alt="Celular com excelente câmera Huawei P30 PRO" title="Huawei P30 PRO"/></a></td>
+                                    <td>Celular Huawei P30 PRO</td>
+                                </tr>                                   
+                            </tbody>
+                            <tfoot>
+                                <tr>
+                                    <td><a href="https://www.magazineluiza.com.br/smartphone-asus-zenfone-6-256gb-black-4g-snapdragon-855-8gb-ram-64-camera-flip/p/224568100/te/tcsp/?&force=1&seller_id=magazineluiza"><img src="Tabela/zenfone-6.png" alt="Celular com excelente câmera Asus ZenFone 6" title="Asus ZenFone 6"/></a></td>
+                                    <td>Asus ZenFone 6</td>
+                                </tr>
+                            </tfoot>
+                        </table>
+                    </div>
+                </div>
             </div>
         </main>
         <footer>Dicas de Fotografia <br> by Genoveva D'elavigne<hr>
             <p>
-                <a href="#menu">Voltar ao topo</a>
+                <a href="#top">Voltar ao topo</a>
             </p>
         </footer>
     </body>
